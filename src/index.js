@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Array from "./pages/Array";
 import Forms from "./pages/Forms";
 import Class from "./pages/Class";
+import Effect from "./pages/Effect";
 
 export default function App() {
 	return (
@@ -19,6 +20,7 @@ export default function App() {
 					<Route path = "arrays" element = {<Array/>}/>
 					<Route path = "forms" element = {<Forms/>}/>
 					<Route path = "class" element = {<Class name = "class"/>}/>
+					<Route path = "effect" element = {<Effect/>}/>
 				</Route>
 				<Route path = "*" element = {<a href = "/home">Home</a>}/>
 			</Routes>
