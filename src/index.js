@@ -10,6 +10,8 @@ import Array from "./pages/Array";
 import Forms from "./pages/Forms";
 import Class from "./pages/Class";
 import Effect from "./pages/Effect";
+import Context from "./pages/Context";
+import Reduced from "./pages/Reducer";
 
 export default function App() {
 	return (
@@ -21,6 +23,8 @@ export default function App() {
 					<Route path = "forms" element = {<Forms/>}/>
 					<Route path = "class" element = {<Class name = "class"/>}/>
 					<Route path = "effect" element = {<Effect/>}/>
+					<Route path = "context" element = {<Context/>}/>
+					<Route path = "reduce" element = {<Reduced/>}/>
 				</Route>
 				<Route path = "*" element = {<a href = "/home">Home</a>}/>
 			</Routes>

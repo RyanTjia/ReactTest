@@ -11,6 +11,8 @@ const Layout = () => {
 				<li><Link to = "/home/forms">Form</Link></li>
 				<li><Link to = "/home/class">Class</Link></li>
 				<li><Link to = "/home/effect">Effect</Link></li>
+				<li><Link to = "/home/context">Context</Link></li>
+				<li><Link to = "/home/reduce">Reduced</Link></li>
 			</ul>
 
 			<Outlet/>
